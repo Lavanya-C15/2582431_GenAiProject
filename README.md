@@ -137,6 +137,19 @@ export OLLAMA_MODEL=llama3
 export SD_HOST=http://127.0.0.1:7860
 ```
 
+### Running on Google Colab instead
+
+If your machine doesn't have a GPU, [`colab/answer_feedback_tutor_colab.ipynb`](colab/answer_feedback_tutor_colab.ipynb)
+runs the same grading + image generation logic on a free Colab GPU. It does **not** use
+AUTOMATIC1111's web UI, since Google blocks the Gradio-based web UI on free-tier Colab —
+instead it loads Stable Diffusion directly through the `diffusers` library, which is not
+restricted. Ollama runs as a background process inside the notebook. The UI is a simple
+`ipywidgets` form instead of Streamlit, since Streamlit needs a tunneling tool (e.g. ngrok)
+to be reachable from outside a Colab VM.
+
+This is meant for development/demo convenience (free GPU access) — the project is still
+fully runnable on a local machine using the steps above, with identical grading logic.
+
 ## Screenshots
 
 See [`docs/screenshots/`](docs/screenshots/) — add captures of the question selector,
