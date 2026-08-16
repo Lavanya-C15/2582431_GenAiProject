@@ -1,0 +1,37 @@
+[
+  {
+    "id": "photosynthesis",
+    "question": "Explain the process of photosynthesis in plants.",
+    "model_answer": "Photosynthesis is the process by which plants convert light energy into chemical energy. It occurs mainly in the chloroplasts, using the pigment chlorophyll to absorb sunlight. Water is absorbed by the roots and split during the light-dependent reactions, releasing oxygen as a byproduct. Carbon dioxide from the air is then combined with the energy captured to produce glucose during the light-independent reactions (Calvin cycle). The glucose is used by the plant for energy and growth.",
+    "key_points": [
+      { "concept": "Occurs in chloroplasts using chlorophyll", "weight": 1 },
+      { "concept": "Light-dependent reactions split water and release oxygen", "weight": 1 },
+      { "concept": "Carbon dioxide is used to produce glucose", "weight": 1 },
+      { "concept": "Light-independent reactions (Calvin cycle)", "weight": 1 },
+      { "concept": "Glucose is used for plant energy and growth", "weight": 1 }
+    ]
+  },
+  {
+    "id": "neuron_signal",
+    "question": "Describe how a neuron transmits a nerve signal.",
+    "model_answer": "A neuron transmits a signal through an electrical impulse called an action potential. At rest, the neuron maintains a resting potential due to ion concentration differences across its membrane. When stimulated, sodium ions rush into the cell, depolarizing the membrane and triggering the action potential, which travels along the axon. When the impulse reaches the axon terminal, it triggers the release of neurotransmitters into the synapse. These neurotransmitters bind to receptors on the next neuron, passing the signal along.",
+    "key_points": [
+      { "concept": "Resting potential from ion concentration differences", "weight": 1 },
+      { "concept": "Depolarization via sodium ion influx", "weight": 1 },
+      { "concept": "Action potential travels along the axon", "weight": 1 },
+      { "concept": "Neurotransmitters released at the synapse", "weight": 1 },
+      { "concept": "Neurotransmitters bind to receptors on next neuron", "weight": 1 }
+    ]
+  },
+  {
+    "id": "newtons_second_law",
+    "question": "Explain Newton's second law of motion.",
+    "model_answer": "Newton's second law states that the acceleration of an object is directly proportional to the net force acting on it and inversely proportional to its mass, expressed as F = ma. This means a larger force produces greater acceleration, while a larger mass results in smaller acceleration for the same force. The law also implies that force and acceleration are vector quantities, acting in the same direction. It provides a quantitative way to predict how an object's motion changes when forces are applied.",
+    "key_points": [
+      { "concept": "F = ma relationship", "weight": 1 },
+      { "concept": "Acceleration proportional to net force", "weight": 1 },
+      { "concept": "Acceleration inversely proportional to mass", "weight": 1 },
+      { "concept": "Force and acceleration are vector quantities", "weight": 1 }
+    ]
+  }
+]
