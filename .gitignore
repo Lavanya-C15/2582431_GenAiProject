@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Generated outputs (keep the folder, not the generated files)
+outputs/*
+!outputs/.gitkeep
+
+# OS/editor cruft
+.DS_Store
+.vscode/
+.idea/
+
+# Large local model weights (never commit these)
+models/*
+!models/.gitkeep
